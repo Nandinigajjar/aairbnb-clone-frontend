@@ -32,7 +32,7 @@ function Details() {
             .then(data => { 
                 setDestination(data);
             }).catch(error => {navigate("/not-found/");})
-    }, [id]);
+    }, [id, navigate]);
 
     return (
         <>
